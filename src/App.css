@@ -1,8 +1,21 @@
 .App {
   text-align: center;
+  border: 1px solid red;
+  max-width: 100%;
+}
+.nav {
+  border: 1px solid blue;
+}
+.header {
+  border: 1px solid green;
+  height: 1000px;
+}
+.bookings {
+  border: 1px solid orange;
+  height: 1000px;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
@@ -29,4 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
