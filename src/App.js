@@ -7,6 +7,7 @@ import VideoCarousel from './components/VideoCarousel';
 import Learn from './components/Learn';
 import PicsCarousel from './components/PicsCarousel';
 import Bookings from './components/Bookings';
+import Home from './components/Home';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +24,7 @@ class App extends Component {
         <PicsCarousel />
         <Bookings /> */}
         <Switch>          
-          <Route exact path='/' component={Header}/>
+          <Route exact path='/' component={Home}/>
           <Route  path='/about' component={About}/>
         </Switch>
       </div>
