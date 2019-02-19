@@ -1,45 +1,40 @@
+/* body {
+  margin: 0 auto;
+} */
 .App {
   text-align: center;
   border: 1px solid red;
-  max-width: 100%;
+  max-width: 95vw;
+  height: 100%;
+  margin: 0 auto;
+
 }
 .nav {
   border: 1px solid blue;
 }
 .header {
   border: 1px solid green;
-  height: 1000px;
 }
 .bookings {
   border: 1px solid orange;
-  height: 1000px;
 }
 
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.home {
+  margin: 0 auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.home-banner {
+  max-width: 70vw;
+  border: 5px dashed green;
+  /* margin: 0 auto; */
+  margin: inherit;
 
-.App-link {
-  color: #61dafb;
+
 }
+.home-banner img {
+  width: 50px;
+  border: 5px dashed blue;
+  object-fit: contain;
+  object-position: 50% 0%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+}
